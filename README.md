@@ -2,7 +2,7 @@
 ---
 
 ## About this project: 🙌
-> This is a clone of expertia, built by me as Inke interview assignment .
+> This is a demo Mailbox, built by me as Inke interview assignment .
 
 ---
 
