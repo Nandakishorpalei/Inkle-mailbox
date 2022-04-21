@@ -1,0 +1,6 @@
+#menuBar{
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}

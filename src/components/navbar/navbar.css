@@ -1,0 +1,42 @@
+#navbarContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+    height: 2.5vw;
+    padding: 0.5vw;
+}
+#logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12vw;
+}
+#navbarLeft{
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+#searchbar{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: 0 1vw;
+    border-radius: 12px;
+}
+.searchBarLeft{
+    display: flex;
+}
+.searchBox{
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+.searchBox:focus{
+    outline: none;
+}
+#navOptions{
+    display: flex;
+    justify-content: space-between;
+    width: 7vw;
+}

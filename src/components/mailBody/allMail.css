@@ -1,0 +1,13 @@
+#mailBody{
+    width: 70vw;
+}
+.mailHeader{
+    white-space: nowrap; 
+    width: 70vw; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-top: 8px;
+  }
+.mailSubject{
+    font-weight: 700;
+}
