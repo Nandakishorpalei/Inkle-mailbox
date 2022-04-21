@@ -1,13 +1,30 @@
-#mailBody{
-    width: 70vw;
+#mailBody {
+  width: 70vw;
 }
-.mailHeader{
-    white-space: nowrap; 
-    width: 70vw; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    margin-top: 8px;
-  }
-.mailSubject{
-    font-weight: 700;
+.mailHeader {
+  white-space: nowrap;
+  width: 68vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 8px;
+  padding: 5px 20px;
+  background-color: rgb(244, 244, 244);
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  text-transform: capitalize;
+  color:white;
+}
+
+.mailSubject {
+  font-weight: 700;
+  line-height: 0;
+  color:rgb(69, 69, 69);
+}
+.mailBodyContent{
+  white-space: nowrap;
+  width: 68vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 16px;
+  color:rgb(110, 110, 110);
 }
