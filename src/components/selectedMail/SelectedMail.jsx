@@ -7,7 +7,7 @@ const SelectedMail = () => {
   const [params, setParams] = useSearchParams();
   console.log("params:name", params.get("id"));
   const mailId = params.get("id");
-  console.log("mailId:", mailId);
+  console.log("mailId:", mailId); 
 
   const { data, loading } = useSelector((store) => store.mailData);
 
